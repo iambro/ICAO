@@ -1,0 +1,142 @@
+
+
+/* MODERN PHONES */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    
+    main {
+        width: 100%;
+        margin: 7px;
+    }
+    
+    aside {
+        display: none;
+    }
+    
+    .output-box {
+        font-size: 70%;
+        width: 90%;
+        height: 350px;
+    }
+    
+    h1 {
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    h3 {
+        font-size: 16px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+    
+    .input-form {
+    margin-bottom: 20px;
+    }
+}
+
+/* PHONES WITH SHORT SCREEN */
+@media screen and (max-height: 600px) {
+    
+    .output-box {
+        font-size: 70%;
+        width: 90%;
+        height: 200px;
+    }
+}
+
+/* PHONES WITH 3:2 DISPLAY RATIO */
+@media screen and (max-width: 500px) and (aspect-ratio: 2/3) {
+    
+    main {
+        width: 100%;
+        margin: 7px;
+    }
+    
+    aside {
+        display: none;
+    }
+    
+    .output-box {
+        font-size: 70%;
+        width: 90%;
+        max-height: 200px;
+    }
+    
+    h1 {
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    h3 {
+        display: none;
+    }
+    
+    .input-form {
+    margin-bottom: 20px;
+    }
+}
+
+/* LANDSCAPE */
+@media screen and (max-height: 850px) and (orientation: landscape) {
+    
+    main {
+        width: 100%;
+        margin: 7px;
+    }
+    
+    aside {
+        display: none;
+    }
+    
+    .output-box {
+        font-size: 70%;
+        width: 90%;
+        height: 10px;
+        min-height: 80px;
+    }
+    
+    h1 {
+        font-size: 40px;
+        margin-top: 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    h3 {
+        font-size: 16px;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    
+    .input-form {
+    margin-bottom: 10px;
+
+}
+    
+/* PHONES WITH SHORT SCREEN LANDSCAPE */
+@media screen and (max-height: 320px) and (orientation: landscape) {
+    
+    .output-box {
+        font-size: 70%;
+        width: 90%;
+        height: 100px;
+    }
+    
+    h1 {
+        line-height: 1;
+    }
+}
